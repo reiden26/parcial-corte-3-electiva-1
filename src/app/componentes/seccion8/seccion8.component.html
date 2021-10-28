@@ -1,0 +1,51 @@
+
+<header>
+    <h1 class="header-title"></h1>
+</header>
+
+<main>
+    <button type="button" class="button blue mobile" id="registro_user">Registrata tus mercancias!!</button>
+    <table id="tableClient" class="records">
+        <thead>
+            <tr>
+                <th>Serie del produtco</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Cantidad</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div class="modal1" id="modal">
+        <div class="modal1-content">
+            <header class="modal1-header">
+                <h2>Nuevo registro</h2>
+                <span class="modal1-close" id="modalClose"></span>
+            </header>
+            <form id="form" class="modal1-form">
+                <input type="text" id="serie" data-index="new" class="modal1-field" placeholder="serie del producto"
+                    required>
+                <input type="text" id="nombre" class="modal1-field" placeholder="nombre del producto" required>
+                <select name="select" id="tipo" class="modal!-field" required style="width: 450px;" >
+                    <option value=""  selected></option>
+                    <option value="Camaras">Camaras</option>
+                    <option value="Electrodomesticos">Electrodomesticos</option>
+                    <option value="Computadores">Computadores</option>
+                  </select>
+                
+                
+                
+                <input type="text" id="cantidad" class="modal1-field" placeholder="cantidad del producto" required>
+            </form>
+            <footer class="modal1-footer">
+                <button id="guardar" class="button green">Guardar</button>
+                <button id="cancelar" class="button red">Cancelar</button>
+            </footer>
+        </div>
+    </div>
+</main>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
